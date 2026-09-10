@@ -1,0 +1,18 @@
+server:
+  port: 8090
+spring:
+  output:
+    ansi:
+      enabled: always
+  application:
+    name: upload-to-databricks-with-kotlin
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+instance-url:
+token:
+sync-folder:
+volume:
+folder:
